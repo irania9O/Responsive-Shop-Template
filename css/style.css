@@ -77,3 +77,7 @@ body {
         width: 89% !important;
     }
 }
+.fa-text-justify {
+    direction: rtl;
+    text-align: justify;
+}
