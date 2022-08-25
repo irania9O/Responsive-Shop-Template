@@ -61,3 +61,19 @@ body {
 .property-p {
     font-size: 15px;
 }
+.row-fixed-height [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+  }
+  
+.row-fixed-height {
+    overflow: hidden; 
+}
+
+@media (min-width: 768px){
+    .btn-add-cart {
+        position: absolute !important;
+        bottom: 5% !important;
+        width: 89% !important;
+    }
+}
