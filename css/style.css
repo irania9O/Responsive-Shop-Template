@@ -81,3 +81,20 @@ body {
     direction: rtl;
     text-align: justify;
 }
+
+.grad1 {
+    background-color: red;
+    background-image: linear-gradient(to bottom right, #e44c56, #eb42d6);
+}
+.grad2 {
+    background-color: red;
+    background-image: linear-gradient(to bottom right, #fcf162, #ff590a);
+}
+.grad3 {
+    background-color: red;
+    background-image: linear-gradient(to bottom right, #67de4d, #eaec4d);
+}
+.grad4 {
+    background-color: red;
+    background-image: linear-gradient(to bottom right, #4c9cde, #47efc0);
+}
