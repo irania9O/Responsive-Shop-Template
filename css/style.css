@@ -98,3 +98,16 @@ body {
     background-color: red;
     background-image: linear-gradient(to bottom right, #4c9cde, #47efc0);
 }
+
+.vcenter {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+}
+@media (min-width: 768px){
+    .vcenter {
+        left: 35%;
+        right: 35%;
+    }
+}
